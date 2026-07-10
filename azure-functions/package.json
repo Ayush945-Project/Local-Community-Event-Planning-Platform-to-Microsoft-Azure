@@ -1,0 +1,14 @@
+{
+  "name": "communityhub-azure-functions",
+  "version": "1.0.0",
+  "description": "Azure Functions for CommunityHub notification system",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "@azure/communication-email": "^1.0.0"
+  }
+}
